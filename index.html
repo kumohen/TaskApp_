@@ -1,0 +1,91 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+     body{
+       margin: 0px;
+       padding: 0px;
+       background-color: aliceblue;
+     }
+   
+     .header{
+        height: 50px;
+        width: 100%;
+        background-color: burlywood;
+        margin-bottom: 30px;
+      }
+      .header h5 {
+        font-size: 20px;
+        padding: 10px;
+        margin-bottom: 30px;
+      }
+      input{
+        height: 40px;
+        width: 20%;
+      }
+      #titleLable{
+        margin-right: 60px;
+      }
+      label{
+        font-size: 20px;
+        font-weight: 600;
+      }
+      button{
+        height: 40px;
+        width: 70px;
+        margin-left: 110px;
+        margin-top: 10px;
+        color: cadetblue;
+      }
+      .list-item{
+        border: 1px solid red;
+        height: 170px;
+        width: 400px;
+        margin: 10px;
+      }
+      .list-item h6,p{
+        font-size: 20px;
+        color: black;
+        line-height: 0px;
+        margin-left: 10px;
+      }
+      .list-item .delBtn{
+        color: white;
+        background-color: crimson;
+        height: 30px;
+        width: 57px;
+        margin-left: 10px;
+      
+      }
+     
+    </style>
+</head>
+
+<body>
+   
+    <div class="header">
+      <h5>TaskApp</h5>
+    </div>
+   
+    <label id="titleLable">Title:</label>
+    <input name="title" type="text"  id="title" placeholder="title" class="title"/>
+    <br/>
+    <br/>
+
+    <label>Description:</label>
+    <input name="des" type="text" placeholder="description"  id="des" class="des"/>
+    <br>
+    <button id ="btn">submit</button>
+    <ul id="list-items">
+
+    </ul>
+    <p id="item"></p>
+  <div id="root">
+        
+  </div>
+    <script src="index3.js"></script>
+</body>
+</html>
